@@ -54,7 +54,7 @@ public class Record {
                     case "<":
                         factors.push((records.get(factors.pop())) < Integer.valueOf(factors.pop().toString()));
                     case "&":
-                        //factors.push(factors.pop() && factors.pop());
+                        //factors.push(factors.pop() && factors.pop());  //TODO
                     case "|":
                         ;
 
